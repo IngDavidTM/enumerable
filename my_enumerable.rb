@@ -1,4 +1,5 @@
-module MyEnumerable
+module my_enumerable
+
   def all?
     @list.each do |word|
       return false unless yield word
@@ -20,4 +21,3 @@ module MyEnumerable
     end
     filtered_list
   end
-end
