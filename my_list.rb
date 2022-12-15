@@ -1,8 +1,8 @@
 require_relative 'my_enumerable'
 # class with a enumerable methods
 
-class my_list
-  include my_enumerable
+class MY_LIST
+  include MY_ENUMERABLE
 
   def initialize(*items)
     @list = items

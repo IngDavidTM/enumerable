@@ -1,4 +1,4 @@
-module my_enumerable
+module MY_ENUMERABLE
 
   def all?
     @list.each do |word|
@@ -21,3 +21,4 @@ module my_enumerable
     end
     filtered_list
   end
+end
