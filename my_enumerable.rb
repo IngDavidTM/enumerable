@@ -1,5 +1,4 @@
-module MY_ENUMERABLE
-
+module MyEnumerable
   def all?
     @list.each do |word|
       return false unless yield word

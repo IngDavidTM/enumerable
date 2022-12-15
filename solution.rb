@@ -1,7 +1,7 @@
 require_relative 'my_list'
 
 # list ranging to 5 to properly tests all? and any?
-list = MY_LIST.new(1, 2, 3, 4, 5)
+list = MyList.new(1, 2, 3, 4, 5)
 
 puts(list.all? { |e| e < 5 })
 puts(list.all? { |e| e > 5 })
